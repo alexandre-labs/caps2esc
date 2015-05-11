@@ -1,10 +1,11 @@
 # caps2esc
 
-# TODO: improve this README.md
+This is just a lazy idea to configure the capslock key as ESC and CTRL. A lot thanks [@oblitum](https://github.com/oblitum)!
 
 __The original gist (https://gist.github.com/oblitum/eafd75ba94a272fbf31e):__
 
-_This recipe maps the useless CapsLock key to a combo key, that works
+```
+This recipe maps the useless CapsLock key to a combo key, that works
 as ESC when clicked, or as CTRL when pressed in combination with another
 key.
 
@@ -35,5 +36,9 @@ On OS X I go to system-preferences>keyboard>modifier-keys and map Caps Lock to C
 
 I then use the Karabiner (https://pqrs.org/osx/karabiner/index.html.en) tool and mark
 the Ctrl_L to Ctrl\_L option where it's specified: "+ When you type Ctrl\_L only, send Escape".
-_
+```
+# How to use it:
 
+* Clone the repo: ```git clone https://github.com/alexandre/caps2esc```
+* Execute the script related with your Linux distro. You can send a PR to add others issues or execute the easy and simple manual process. =]
+* Apply the BEE-WARE license with the @oblitum, if you meet him.
