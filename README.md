@@ -1,6 +1,6 @@
 # caps2esc
 
-This is just a lazy idea to configure the capslock key as ESC and CTRL. A lot thanks [@oblitum](https://github.com/oblitum)!
+This is just a lazy idea to configure the capslock key as ESC and CTRL. Many thanks [@oblitum](https://github.com/oblitum)!
 
 __The original gist (https://gist.github.com/oblitum/eafd75ba94a272fbf31e):__
 
