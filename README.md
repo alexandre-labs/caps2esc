@@ -41,4 +41,4 @@ the Ctrl_L to Ctrl\_L option where it's specified: "+ When you type Ctrl\_L only
 
 * Clone the repo: ```git clone https://github.com/alexandre/caps2esc```
 * Execute the script related with your Linux distro. You can send a PR to add others distros or execute the easy and simple manual process. =]
-* Apply the BEE-WARE license with the @oblitum, if you meet him.
+* Apply the [BEE-WARE](https://en.wikipedia.org/wiki/Beerware) license with the @oblitum, if you meet him.
