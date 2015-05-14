@@ -12,6 +12,7 @@ sudo apt-get install git gcc make pkg-config libx11-dev libxtst-dev libxi-dev
 echo "Building and install"
 make
 sudo make install
+cd ..
 
 echo "Copying xmodconf file"
 cp xmodmap.conf ${HOME}/.xmodmap.conf
