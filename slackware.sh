@@ -1,5 +1,5 @@
 #!/bin/sh
-
+# it works! Slackware64 14.1
 
 git submodule update --init --recursive
 cd xcape

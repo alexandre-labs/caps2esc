@@ -1,5 +1,5 @@
 #!/bin/sh
-
+# it works! Ubuntu 14.10 64
 
 echo "Cloning Xcape"
 git submodule update --init --recursive
