@@ -1,3 +1,4 @@
+killall xcape 2> /dev/null
 xcape
 xmodmap ~/.xmodmap.conf
 xcape
