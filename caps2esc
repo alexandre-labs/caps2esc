@@ -1,6 +1,11 @@
 #!/bin/sh
 
-kill -9 `ps aux|grep xcape|grep -v grep|awk '{ print $2}'|xargs`
+proc=$(ps aux|grep xcape|grep -v grep|awk '{ print $2}'|xargs)
+
+if [[ "${proc}" != "" ]]; then
+	kill -9 ${proc}
+fi
+
 xcape
 xmodmap ~/.xmodmap.conf
 xcape
