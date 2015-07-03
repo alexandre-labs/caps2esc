@@ -2,9 +2,7 @@
 
 proc=$(ps aux|grep xcape|grep -v grep|awk '{ print $2}'|xargs)
 
-if [[ "${proc}" != "" ]]; then
-	kill -9 ${proc}
-fi
+echo "Old processes: ${proc}" && kill -9 ${proc} || echo "no old processes."
 
 xcape
 xmodmap ~/.xmodmap.conf
