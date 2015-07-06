@@ -37,6 +37,19 @@ On OS X I go to system-preferences>keyboard>modifier-keys and map Caps Lock to C
 I then use the Karabiner (https://pqrs.org/osx/karabiner/index.html.en) tool and mark
 the Ctrl_L to Ctrl\_L option where it's specified: "+ When you type Ctrl\_L only, send Escape".
 ```
+
+**Later notice**:
+
+> This script line on Ubuntu is able to make caps2esc execute any time the keyboard layout changes:
+>
+> ```
+> dconf watch /org/gnome/desktop/input-sources/current | xargs -L 2 caps2esc &
+> ```
+>
+> <sub>Notice the `&` is creating a daemon.</sub>
+>
+> Source: http://unix.stackexchange.com/a/114757/42313
+
 # How to use it:
 
 * Clone the repo: ```git clone https://github.com/alexandre/caps2esc```
