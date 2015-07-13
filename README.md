@@ -50,6 +50,12 @@ the Ctrl_L to Ctrl\_L option where it's specified: "+ When you type Ctrl\_L only
 >
 > Source: http://unix.stackexchange.com/a/114757/42313
 
+**Tip**:
+
+In case you use your shell and vi mode, consider adopting `export KEYTIMEOUT=1` since this will
+make release events much more responsive than some usual defaults. This can improve switching
+to normal mode in the command line.
+
 # How to use it:
 
 * Clone the repo: ```git clone https://github.com/alexandre/caps2esc```
