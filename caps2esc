@@ -1,9 +1,14 @@
-#!/bin/sh
+#!/bin/bash
 
 proc=$(ps aux|grep xcape|grep -v grep|awk '{ print $2}'|xargs)
 
-echo "Old processes: ${proc}" && kill -9 ${proc} || echo "no old processes."
+if [[ "${proc}" == "" ]]; then
+	echo "No old processes."
+else
+	echo "Old processes: \n ${proc}"
+	kill -9 ${proc} 2>>/dev/null
+fi
 
 xcape
-xmodmap ~/.xmodmap.conf
+xmodmap ${HOME}/.xmodmap.conf
 xcape
