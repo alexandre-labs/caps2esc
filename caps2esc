@@ -5,10 +5,9 @@ proc=$(ps aux|grep xcape|grep -v grep|awk '{ print $2}'|xargs)
 if [[ "${proc}" == "" ]]; then
 	echo "No old processes."
 else
-	echo "Old processes: \n ${proc}"
+	echo -e "Old processes:\n ${proc}"
 	kill -9 ${proc} 2>>/dev/null
 fi
 
-xcape
 xmodmap ${HOME}/.xmodmap.conf
 xcape
