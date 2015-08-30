@@ -52,9 +52,15 @@ the Ctrl_L to Ctrl\_L option where it's specified: "+ When you type Ctrl\_L only
 
 **Tip**:
 
-In case you use your shell and vi mode, consider adopting `export KEYTIMEOUT=1` since this will
+In case you use zsh in vi mode, consider adopting `export KEYTIMEOUT=1` since this will
 make release events much more responsive than some usual defaults. This can improve switching
 to normal mode in the command line.
+
+**Windows alternative**:
+
+There's a sample for this making use of oblitum's Interception library:
+
+- https://github.com/oblitum/Interception/blob/master/samples/caps2esc/caps2esc.cpp
 
 # How to use it:
 
